@@ -17,6 +17,7 @@
 			completed: false
 		},
 	]
+<<<<<<< HEAD
 	var app = new Vue({
 		el: '#todoapp',
 		data: { 
@@ -52,6 +53,12 @@
 													// 入参     出参
 				return this.items.filter(item =>!item.completed).length
 			}
+=======
+	new Vue({
+		el: '#todoapp',
+		data: { 
+			items: items
+>>>>>>> 9d94deae95d763cb9e908a06e489f550dee9d333
 		}
 	})
 
